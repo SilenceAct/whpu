@@ -31,6 +31,12 @@
 			text-align:center;
 			line-height:40px;
 		}
+		.line{
+			background-color:#1295D8;
+			width:1110px;
+			height:2px;
+			text-align:center;
+		}
 	</style>
 
  </head>
@@ -65,12 +71,13 @@
 				<div class="guide_two">社会服务</div>
 				<div class="guide_two">校园文化</div>
 				<div class="guide_two" style="padding-left:300px;">学生</div>
-				<div class="guide_two" style="padding-left:15px;">教职工</div>
-				<div class="guide_two" style="padding-left:15px;">校友</div>
-				<div class="guide_two" style="padding-left:15px;">考生及访客</div>
-				<div class="guide_two" style="padding-left:15px;">学校新闻网</div>
+				<div class="guide_two" style="padding-left:20px;">教职工</div>
+				<div class="guide_two" style="padding-left:20px;">校友</div>
+				<div class="guide_two" style="padding-left:20px;">考生及访客</div>
+				<div class="guide_two" style="padding-left:20px;">学校新闻网</div>
 			
 		</div>
+
 		<div class="container">
 			<div id="myCarousel" class="carousel slide">
 					 <!-- 轮播（Carousel）指标 -->
@@ -101,9 +108,120 @@
 				</div>
 			</div>
 		</div>
+		
+		<!-- 第二板块 -->
+		<div class="container" style="overflow:auto;width:1140px;height:400px;border:1px solid #f1f1f1">
+			<!-- 边框 -->
+		
+				<!-- 标题 -->
+				<div style="text-align:center;line-height:50px;font-weight:bold;float:left">
 
-		<div class="container">
-			<div style="color:#2196D5 ; font-size:20px">学校新闻/news</div>
+					<div style="color:#2196D5 ; font-size:20px;float:left;padding-left:15px">学校新闻</div>
+					<div style="color:gray ; font-size:15px ; float:left"> &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;news</div>
+			
+				</div>
+				<!-- 分割线 -->
+				<div>
+					<hr class="line"/>
+				</div>
+					<!-- 小的轮播图 -->
+				<div style="width:450px;height:250px;overflow:hidden;padding-left:15px;float:left">
+					<!-- 内层盒子 -->
+					<div id="second_carousel" class="carousel slide" data-ride:carousel" >
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#second_carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#second_carousel" data-slide-to="1"></li>
+								<li data-target="#second_carousel" data-slide-to="2"></li>
+								<li data-target="#second_carousel" data-slide-to="3"></li>
+							</ol>
+						
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+
+								<div class="item active">
+									<img src="image/jia.jpg" alt="First"> 
+									<div class="carousel-caption" >
+										<p>【媒体聚焦】轻工大学师生玩转酒体文化嘉年华</p>
+									</div>
+								</div>
+
+								<div class="item">
+									<img src="image/kaihui.png" alt="First"> 
+									<div class="carousel-caption">
+										<p>校党委召开一届五次全体会议传达全省高校</p>
+									</div>
+								</div>
+
+								<div class="item">
+									<img src="image/yishu.jpg" alt="Second"> 
+									<div class="carousel-caption">
+										<p>阅读点亮智慧 书香润泽心灵 图书馆以丰富多彩</p>
+									</div>
+								</div>
+
+								<div class="item">
+									<img src="image/banjiang.jpg" alt="third"> 
+									<div class="carousel-caption">
+										<p >何东平教授、李建芬教授双双荣获湖北省科学奖</p>
+									</div>
+								</div>
+								<!-- 	Controls -->
+								<a class = "left carousel-control" href="#second_carousel" data-slide="prev">
+									&lsaquo;
+									</a>
+									<a class= "right carousel-control" href="#second_carousel" data-slide="next">
+									&rsaquo;
+								</a>
+							</div>
+						<!-- Wraper for slides -->
+					</div>
+					<!-- 内层盒子 -->
+				</div>
+				<!-- 轮播图结束 -->
+
+					<span style="float:left;padding-left:30px;width:600px;height:300px;overflow: hidden">
+						<a>
+							<p style="font-weight:bold;font-size:17px;">长江后浪推前浪&nbsp;&nbsp;一代新人胜旧人 我校学子在湖北省第十届大学生化学（化工）学术创新成果报告会获佳绩</p>
+						</a>
+						<a>
+							<p style="font-weight:bold;font-size:17px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;">学校召开“不担当，不作为”问题专项治理工作推荐会暨彻底取缔“小金库”工作会</p>
+						</a>
+						<a>
+							<p style="font-weight:bold;font-size:17px;">【媒体聚焦】象牙塔里新景多</p>
+						</a>
+						<ul>
+							<li>
+								<a>
+									<p style="color:#000000;font-size:15px">我校学子在湖北省第十一届“挑战杯”大学生课外学术科技作品竞赛取得好成绩</p>
+								</a>
+							</li>
+							<li>
+								<a>
+									<p style="color:#000000;font-size:15px">【媒体聚焦】轻工大学站，到了</p>
+								</a>
+							</li>
+							<li>
+								<a>
+									<p style="color:#000000;font-size:15px">【媒体聚焦】大学生营销大赛湖北总决赛 武汉大学大获全胜</p>
+								</a>
+							</li>
+							<li>
+								<a>
+									<p style="color:#000000;font-size:15px">学校与六位湖北省 “楚天学子” 集体签订岗位聘任合同</p>
+								</a>
+							</li>
+							<li>
+								<a>
+									<p style="color:#000000;font-size:15px">加拿大里贾纳大学戴黎明教授来我校进行访问</p>
+								</a>
+							</li>
+						</ul>
+					</span>
+
+			
+			<!-- 边框结束 -->
 		</div>
+		<!-- 第一板块结束 -->
  </body>
 </html>
